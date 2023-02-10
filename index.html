@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
 
-    
+<body>
+    <h3>What is Frapper?</h3>
+    <p>Frappe is a fullstack, web framework written in python and javascript.</p>
+    <p>Frappe is used to build data-driven application and comes with almost everything you need to build to a modern
+        web application.</p>
+
+    <h3>Modern View Controller(MVC) Architecture</h3>
+    <img src="MVC-Artitecture.png" alt="">
+
+    <h3>Meta-data</h3>
+    <p>Meta data is <b>first class citizen in frappe</b></p>
+    <p>It is used to generate databse tables, designs forms and configure a lot of features</p>
+    <p>Meta data is stored in a model which is known as <b>DocType</b> in frappe.</p>
+
+    <h3>Python, javascript and MariaDB</h3>
+    <p>Frappe Framework uses <b>Python</b> for the backend and <b>JavaScript</b> for the frontend</p>
+    <p>It support <b>MariaDB</b> and <b>PostgreSQL</b> databases.</p>
+
+    <h3>Admin Interface</h3>
+    <p>Frappe comes with a feature rich admin interface called the Desk.</p>
+    <p>Desk handles forms, navigation, lists, menus, permission, file attachment, and much more.</p>
+    <p>When we create a DocType in Frappe, a number of views also create inside the desk.</p>
+
+    <h4>Users, Roles and Permission</h4>
+    <p>A user is someone who can login to the system and perform authorize actions like creating, updating, or deleting
+        records.</p>
+    <p>Frappe supports real time events using Nodejs and socketio.</p>
+    <p>It supports sending and receiving eamils, which can also be linked to individual documents</p>
+
+    <img src="bench-structure.svg" alt="">
+    <h4>Bench</h4>
+    <p>Bench is a command line tool to manage Frappe apps and sites.</p>
+    <p>It provides an easy interface to help you stepup and manage multiple sites and apps based on frappe framework</p>
+    <p>To initilize new bench , run this command <br>bench init <"bench_name"> </p>
+
+    <h4>Apps</h4>
+    <p>The default app frappe is a frappe app which acts as the framework for all apps</p>
+    <p>Frappe apps live in a directory called apps in the frappe-bench directory</p>
+    <p>Frappe app should have an entry in apps.txt</p>
+    <p>To create a new apps, run the command</p>
+    <p>bench new-app "app name"</p>
+
+    <h4>Sites</h4>
+    <p>Frappe is a multi tenant platform and each tenant is called sites.</p>
+    <p>Sites exist in a directory called sites</p>
+    <p>To create a new sites, run the command </p>
+    <p>bench new-site "site_name"</p>
+
+
+
+
+    <!-- Table of Contents
+
+    Create a Bench
+    Create an App
+    Create a Site
+    Create a DocType
+    DocType Features
+    Controller Methods
+    Types of DocType
+    Form Scripts
+    Portal Pages
+    What's Next -->
+
+
+
 </body>
+
 </html>
